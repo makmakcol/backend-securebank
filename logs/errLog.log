@@ -1,0 +1,18 @@
+2023-08-10	16:03:13	dcf3e2d5-2d3f-4b1b-99d8-1f512ef8d82d	Error: Not allowed by CORS	GET	/	chrome-untrusted://new-tab-page
+2023-08-13	19:24:05	febf0e97-c936-42d3-8cc4-2fecdd0f4a45	MongoServerError: user is not allowed to do action [find] on [test.users]	GET	/users	undefined
+2023-08-13	19:35:19	b344ae24-7f69-48cb-b983-e8a1ec6f81c1	SyntaxError: Unexpected string in JSON at position 101	POST	/users	undefined
+2023-08-13	19:35:38	a7e01d7f-6095-4df7-a7ae-8667316f835f	SyntaxError: Unexpected token } in JSON at position 99	POST	/users	undefined
+2023-08-13	19:55:22	845bf79d-169a-4f05-af56-4fa4758a8408	TypeError: Cannot read properties of null (reading '_id')	DELETE	/users	undefined
+2023-08-13	22:38:07	aac9871a-2280-4d47-9b02-0394b1a616d1	SyntaxError: Unexpected end of JSON input	GET	/balance/balance?username=makmak1	undefined
+2023-08-13	22:38:18	3e603ae5-fb36-4b32-9cef-38f4d5fa45c3	SyntaxError: Unexpected end of JSON input	GET	/balance?username=makmak1	undefined
+2023-08-28	16:06:50	ff4e20f5-162f-40b1-b957-3480e22ccec7	SyntaxError: Unexpected token } in JSON at position 189	DELETE	/balance/close-account	undefined
+2023-08-28	16:07:24	97f3cd02-72f5-42e5-952b-b8cddb4b42e2	SyntaxError: Unexpected token } in JSON at position 179	DELETE	/balance/close-account	undefined
+2023-08-28	16:11:07	474dc4f9-3be6-4362-af7c-1667e8d490fa	SyntaxError: Unexpected token } in JSON at position 37	POST	/balance	undefined
+2023-08-28	16:16:45	bd24b4fc-3e7b-4a0e-bc2c-acfd9f78448c	SyntaxError: Unexpected string in JSON at position 30	POST	/balance	undefined
+2023-09-01	16:37:33	31d18d0b-d79c-4225-84fb-d4969e118754	CastError: Cast to ObjectId failed for value "64dd7040bd23887727da52a" (type string) at path "_id" for model "User"	PATCH	/users	http://localhost:3000
+2023-09-01	16:37:56	57738816-0d9a-4d59-ac57-dd63cf38b1fd	CastError: Cast to ObjectId failed for value "64dd7040bd23887727da52a " (type string) at path "_id" for model "User"	PATCH	/users	http://localhost:3000
+2023-09-01	16:38:16	5b3692dc-1ecf-4c79-ae9e-072813f8da19	CastError: Cast to ObjectId failed for value "64dd7040bd23887727da52a9009090909" (type string) at path "_id" for model "User"	PATCH	/users	http://localhost:3000
+2023-09-01	17:32:11	f87c42cf-e6ff-45ff-98c0-85fe505f3bdd	CastError: Cast to ObjectId failed for value "64dd7040bd23887727da52jkhjlkhl" (type string) at path "_id" for model "User"	PATCH	/users	http://localhost:3000
+2023-09-01	17:39:14	f2790a47-a42c-4ce8-9a2a-434d60d19e98	CastError: Cast to ObjectId failed for value "64dd7040bd23887727da52a" (type string) at path "_id" for model "User"	PATCH	/users	http://localhost:3000
+2023-09-01	21:11:16	d2f20e04-288a-43c7-998f-0469234feb56	Error: "espiresIn" is not allowed in "options"	POST	/auth	undefined
+2023-09-06	23:51:07	bba1a5d0-b586-41dd-8772-5c26274a0a3d	MongoNetworkTimeoutError: connection timed out	GET	/balance?username=undefined	http://localhost:3000
