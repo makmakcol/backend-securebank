@@ -12,7 +12,7 @@ https://backend-securebank.onrender.com
 🔗API ENPOINTS
 
 1. Users
-   
+
    - CREATE: `POST /users`
        - Creates a new user account and new account is added to the database
        - Public Route
