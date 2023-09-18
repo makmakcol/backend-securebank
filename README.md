@@ -13,10 +13,10 @@ https://backend-securebank.onrender.com
 
 1. Users
 
-   - CREATE: `POST /users`
-       - Creates a new user account and new account is added to the database
-       - Public Route
-         
+- CREATE: `POST /users`
+      - Creates a new user account and new account is added to the database
+      - Public Route
+      
   - READ: `GET /users`
     - Retrieves all user data from data base
     - Private Route accessed after login authentication
