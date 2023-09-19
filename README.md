@@ -31,25 +31,25 @@ https://backend-securebank.onrender.com
        
 2. Balance
    
-   - CREATE: `POST /balance`
-     - Initial deposit of at least $25 to initialize new account
-     - Public Route
+  - CREATE: `POST /balance`
+    - Initial deposit of at least $25 to initialize new account
+    - Public Route
        
-    - READ: `GET /balance?username=${username}`
+   - READ: `GET /balance?username=${username}`
       - Checks user balance based on a specific username input
       - Private Route accessed after login authentication and username authentication
         
-    - UPDATE: `PATCH /balance/deposit, /balance/withdraw`
+   - UPDATE: `PATCH /balance/deposit, /balance/withdraw`
       - Updates specific user balance with deposit and withdrawal functionalities
       - Private Routes accessed after login authentication and username authentication 
        
 3. Authentication
    
-   - CREATE: `POST /auth, /auth/logout`
+  - CREATE: `POST /auth, /auth/logout`
      - Creates access token for user authentication, and logout route clears cookie if it exists
      - Public Routes
     
-    - READ: `GET /auth/refresh`
+   - READ: `GET /auth/refresh`
       - Retrieves user refresh token because user access token has expired
       - Public Route
      
