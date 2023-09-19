@@ -2,9 +2,7 @@
 
 MERN FULLSTACK PROJECT -- BACKEND
 
-Welcome to the backend code repository of my first MERN fullstack portfolio project, SECURE BANK. This backend is a RESTful API utilizing MongoDB for database management, 
-Express.js for routing, and Node.js for as the runtime environment. CRUD operations are employed throughout this application to integrate and implement user functionality across the deployed application.
-This application is deployed on "Render: Cloud Application Hosting for Developers"-- the backend is deployed as web service.  Enjoy exploring the backend code of SECURE BANK!
+Welcome to the backend code repository of my first MERN fullstack portfolio project, SECURE BANK. This backend is a RESTful API utilizing MongoDB for database management, Express.js for routing, and Node.js as the runtime environment. CRUD operations are integrated throughout the application to deliver a wide range of user functionalities. The application is hosted on "Render: Cloud Application Hosting for Developers", with the backend deployed as a web service. Enjoy exploring the backend code of SECURE BANK!
 
 Check out my splash page!
 https://backend-securebank.onrender.com
@@ -19,15 +17,15 @@ https://backend-securebank.onrender.com
       
   - READ: `GET /users`
     - Retrieves all user data from data base
-    - Private Route accessed after login authentication
+    - Private Route (requires login authentication)
       
   - UPDATE: `PATCH /users`
     - Updates specific user data and shows update in data base
-    - Private Route accessed after login authentication with user ID constraint
+    - Private Route (requires login authentication with user ID constraint)
    
   - DELETE: `DELETE /users`
     - Deletes specfic user account and data is removed from data base
-    - Private Route accessed after login authenticatin with user ID constraint 
+    - Private Route (requires login authentication with user ID constraint)
        
 2. Balance
    
@@ -37,11 +35,11 @@ https://backend-securebank.onrender.com
        
    - READ: `GET /balance?username=${username}`
       - Checks user balance based on a specific username input
-      - Private Route accessed after login authentication and username authentication
+      - Private Route (requires login and username authentication)
         
    - UPDATE: `PATCH /balance/deposit, /balance/withdraw`
       - Updates specific user balance with deposit and withdrawal functionalities
-      - Private Routes accessed after login authentication and username authentication 
+      - Private Routes (require login and username authentication)
        
 3. Authentication
    
@@ -92,10 +90,10 @@ https://backend-securebank.onrender.com
       - UPDATE: Enable modifications of user authentication details or session information, allowing users to maintain up-to-date security configurations
       - DELETE: Introduce the capability for users to revoke specific active access tokens, ensuring better control over active sessions and enhanced security
 
-  3. Security Enhancements
+ 2. Security Enhancements
       - Beyond bcrypt and jwt verification, implement periodic password resets, integrate rate limiters in addition to the login limiter, and explore advanced authentication mechanisms for reinforced security.
 
- 4. Payment Gateway Integrations
+ 3. Payment Gateway Integrations
     
       a. Stripe
        - Integrate Stripe to facilitate online card payments, subscriptions, and direct payouts
@@ -105,7 +103,7 @@ https://backend-securebank.onrender.com
       - Incorporate PayPal as an alternative payment method, enabling user transactions through PayPal balances and linked accounts
       - Implement the PayPal IPN (Instant Payment Notification) service for real-time transaction updates
 
-   5. Account Recovery Functionality
+  4. Account Recovery Functionality
       
        a. Forgot Password
        - Implement a secure "Forgot Password" feature allowing users to reset their passwords through email verificatio
@@ -116,7 +114,7 @@ https://backend-securebank.onrender.com
        c. Account Retrieval
         - Offer users the ability to retrieve forgotten usernames or account details through associated email addresses, ensuring a balance between convenience and security
 
-   6. Budget Tracking Tools
+  5. Budget Tracking Tools
       
        a. Expense Analysis
        - Implement algorithms to categorize and analyze individual expenses, enabling users to see a breakdown of their spending by categories such as groceries, dining, transportation, entertainment, etc.
@@ -127,6 +125,6 @@ https://backend-securebank.onrender.com
        c. Historical Data Visualization
         - Provide user-specific graphical representations of spending and savings patterns over time, including deposit and withdrawal visualizations
          
-   8. Optimized Database
+ 6. Optimized Database
        - Research and test the implementation of indexing, caching mechanisms, archiving, database backup and recovery, database monitoring and alerts, schema enhancements, as well as scalability as the database grows
          
