@@ -13,7 +13,7 @@ https://backend-securebank.onrender.com
 
 1. Users
 
-   - CREATE: `POST /users`
+ - CREATE: `POST /users`
     - Creates a new user account and new account is added to the database
     - Public Route
       
