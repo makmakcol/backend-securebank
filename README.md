@@ -84,6 +84,7 @@ https://backend-securebank.onrender.com
 🚀FUTURE IMPROVEMENTS
 
  1. Full CRUD Operations for All Controllers
+    
      a. Balance
      - DELETE: Allow account closures with neccessary checks and validations to ensure a safe termination of user accounts
 
@@ -91,10 +92,11 @@ https://backend-securebank.onrender.com
       - UPDATE: Enable modifications of user authentication details or session information, allowing users to maintain up-to-date security configurations
       - DELETE: Introduce the capability for users to revoke specific active access tokens, ensuring better control over active sessions and enhanced security
 
-  2. Security Enhancements
+  3. Security Enhancements
       - Beyond bcrypt and jwt verification, implement periodic password resets, integrate rate limiters in addition to the login limiter, and explore advanced authentication mechanisms for reinforced security.
 
- 3. Payment Gateway Integrations
+ 4. Payment Gateway Integrations
+    
       a. Stripe
        - Integrate Stripe to facilitate online card payments, subscriptions, and direct payouts
        - Utilize Stripe's webhooks to handle events, such as successful payments or payment failures
@@ -103,7 +105,8 @@ https://backend-securebank.onrender.com
       - Incorporate PayPal as an alternative payment method, enabling user transactions through PayPal balances and linked accounts
       - Implement the PayPal IPN (Instant Payment Notification) service for real-time transaction updates
 
-   4. Account Recovery Functionality
+   5. Account Recovery Functionality
+      
        a. Forgot Password
        - Implement a secure "Forgot Password" feature allowing users to reset their passwords through email verificatio
      
@@ -113,7 +116,8 @@ https://backend-securebank.onrender.com
        c. Account Retrieval
         - Offer users the ability to retrieve forgotten usernames or account details through associated email addresses, ensuring a balance between convenience and security
 
-   5. Budget Tracking Tools
+   6. Budget Tracking Tools
+      
        a. Expense Analysis
        - Implement algorithms to categorize and analyze individual expenses, enabling users to see a breakdown of their spending by categories such as groceries, dining, transportation, entertainment, etc.
      
@@ -123,6 +127,6 @@ https://backend-securebank.onrender.com
        c. Historical Data Visualization
         - Provide user-specific graphical representations of spending and savings patterns over time, including deposit and withdrawal visualizations
          
-   6. Optimized Database
+   8. Optimized Database
        - Research and test the implementation of indexing, caching mechanisms, archiving, database backup and recovery, database monitoring and alerts, schema enhancements, as well as scalability as the database grows
          
